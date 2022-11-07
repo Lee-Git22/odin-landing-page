@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .header {
     display: flex;
     justify-content: space-around;
@@ -14,4 +17,30 @@ ul {
     flex-direction: row;
     list-style: none;
     gap: 20px;
+}
+
+.top-section {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column  ;
+    color: white;
+    height: 300px;
+}
+
+.subtext {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+    justify-content: space-around;
+}
+
+
+.left, .right {
+    display: flex;
+}   
+
+.left {
+    flex-direction: column;
 }
