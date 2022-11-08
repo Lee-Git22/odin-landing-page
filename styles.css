@@ -26,24 +26,32 @@ ul {
     background-color: #1f2937;
     flex-direction: column  ;
     color: white;
-    height: 300px;
+    
 }
 
 
 .subtext {
     display: inline-flex;  
     justify-content: center;
-    align-items: center;
-    height: 300px;
-    justify-content: center;
+    align-content: center;
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .left, .right {
     display: flex;
-    width: 300px;
+    width: 450px;
     height: auto;
     justify-content: center;
+
+    flex-shrink: 0;
 }   
+
+.right {
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .hero-main {
     font-size: 48px;
@@ -51,11 +59,24 @@ ul {
     color: #F9FAF8;
 }
 
-.hero-sec {
+.hero-sec, .header-link {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .left {
     flex-direction: column;
+    width: 450px;
+    height: auto;
+    justify-content: space-between;
+}
+
+#coffee-thumbnail {
+    width: 450px;
+    height: auto;
+
+}
+
+button {
+    width: 80px;
 }
