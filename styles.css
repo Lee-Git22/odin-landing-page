@@ -1,16 +1,18 @@
 body {
     margin: 0;
 }
+
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-p {
-    font-size: 20px;
-    font-weight: bold;
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
 
 ul {
     display: flex;
@@ -27,19 +29,32 @@ ul {
     height: 300px;
 }
 
+
 .subtext {
-    display: flex;  
+    display: inline-flex;  
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: auto;
-    justify-content: space-around;
+    justify-content: center;
 }
-
 
 .left, .right {
     display: flex;
+    width: 300px;
+    height: auto;
+    justify-content: center;
 }   
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-sec {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .left {
     flex-direction: column;
