@@ -59,7 +59,7 @@ ul {
     color: #F9FAF8;
 }
 
-.hero-sec, .header-link {
+.hero-sec, .header-link, button {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -79,4 +79,6 @@ ul {
 
 button {
     width: 80px;
+    background-color: #3882F6;
+    border: 0;
 }
