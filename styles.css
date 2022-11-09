@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* For top section */
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -71,7 +73,7 @@ ul {
     justify-content: space-between;
 }
 
-#coffee-thumbnail {
+#pasta-blend-thumbnail {
     width: 450px;
     height: auto;
 
@@ -81,4 +83,39 @@ button {
     width: 80px;
     background-color: #3882F6;
     border: 0;
+    border-radius: 6px;
 }
+
+/* For middle section */
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.square-image-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.square-text {
+    font-size: 14px
+}
+
+.square-holder {
+    border: #3882F6;
+    border-radius: 6px;
+    border-spacing: 6px;
+}
+
+.squares {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 6px;
+}
+
