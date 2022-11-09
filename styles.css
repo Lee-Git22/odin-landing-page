@@ -87,6 +87,11 @@ button {
 }
 
 /* For middle section */
+.mid-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 .information-header {
     font-size: 36px;
@@ -98,23 +103,22 @@ button {
 
 .square-image-container {
     display: flex;
-    justify-content: space-around;
+    width: 1200px;
+    justify-content: space-evenly;
+}
 
+.square-text, .squares {
+    width: 150px;
+    height: 150px;
 }
 
 .square-text {
-    font-size: 14px
-}
-
-.square-holder {
-    border: #3882F6;
-    border-radius: 6px;
-    border-spacing: 6px;
+    font-size: 14px;
+    text-align: center;
+    word-wrap: normal;
 }
 
 .squares {
-    width: 150px;
-    height: 150px;
     border: 3px solid #3882F6;
     border-radius: 6px;
 }
