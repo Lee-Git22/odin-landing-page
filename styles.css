@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* For top section */
@@ -43,7 +45,7 @@ ul {
 
 .left, .right {
     display: flex;
-    width: 450px;
+    width: 550px;
     height: auto;
     justify-content: center;
 
@@ -74,7 +76,7 @@ ul {
 }
 
 #pasta-blend-thumbnail {
-    width: 450px;
+    width: 550px;
     height: auto;
 
 }
@@ -105,6 +107,7 @@ button {
     display: flex;
     width: 1200px;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
 .square-text, .squares {
@@ -123,12 +126,17 @@ button {
     border-radius: 6px;
 }
 
+/* For quote section */
+
 .quote-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
     flex-direction: column;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
 }
 
 .quote-text, .quote {
@@ -154,4 +162,39 @@ button {
     padding-bottom: 50px;
     display: flex;
     justify-content: right;
+}
+
+/* For bot-section */
+
+.bot-section {
+    display: flex;
+    background-color:#3882F6;
+    margin: 50px 0px;
+    width: 1100px;
+    align-self: center;
+    justify-content: space-between;
+    border-radius: 6px;
+
+
+}
+
+.action-container {
+    padding: 50px;
+}
+
+.action, .action2, #action-button {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    color: #E5E7EB;
+}
+
+.action {
+    padding-bottom: 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action2 {
+    padding-top: 0;
 }
