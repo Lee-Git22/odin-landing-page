@@ -128,11 +128,30 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote-text, .quote {
+   
+    font-weight: light;
+    color: #1f2937;
+    width: 1000px;
+    padding: 50px;
+    padding-bottom: 0;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
 }
 
 .quote {
-    font-size: 36px;
-    font-weight: light;
-    color: #1f2937;
-    font: italic;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: right;
 }
