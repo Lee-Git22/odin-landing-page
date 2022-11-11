@@ -25,10 +25,10 @@ ul {
     gap: 20px;
 }
 
-.top-section {
+.top-section, .footer {
     display: flex;
     background-color: #1f2937;
-    flex-direction: column  ;
+    flex-direction: column;
     color: white;
     
 }
@@ -207,3 +207,13 @@ ul {
     border: 3px solid #E5E7EB;
     padding: 4px 12px;
 }
+
+/* For Footer Section */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: end;
+}
+
